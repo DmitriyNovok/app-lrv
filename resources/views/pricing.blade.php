@@ -1,0 +1,169 @@
+@include('sections/header')
+
+<section class="page-title bg-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Project Price</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, ex!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="pricing-table section bg-gray">
+	<div class="container">
+		<div class="row">
+			<!-- single pricing table -->
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="pricing-item text-center">
+
+					<!-- plan name & value -->
+					<div class="price-title">
+						<h3>Basic</h3>
+						<strong class="value">$99</strong>
+						<p>Perfect for single freelancers who work by themselves</p>
+					</div>
+					<!-- /plan name & value -->
+
+					<!-- plan description -->
+					<ul>
+						<li><i class="ion-ios-circle-outline"></i> Unlimited agents</li>
+						<li><i class="ion-ios-circle-outline"></i> 10 PSD Design</li>
+						<li><i class="ion-ios-circle-outline"></i> HTML5 Markup</li>
+						<li><i class="ion-ios-circle-outline"></i> Basic SEO</li>
+						<li><i class="ion-ios-circle-outline"></i> Email Marketing</li>
+						<li><i class="ion-ios-circle-outline"></i> 24/7 Tech Support</li>
+					</ul>
+					<!-- /plan description -->
+
+					<!-- Contact Us button -->
+					<a class="btn btn-small" href="/contact">Contact Us</a>
+					<!-- /Contact Us button -->
+
+				</div>
+			</div>
+			<!-- end single pricing table -->
+
+			<!-- single pricing table -->
+			<div class="col-md-4 col-sm-6 col-xs-12  ">
+				<div class="pricing-item text-center">
+
+					<!-- plan name & value -->
+					<div class="price-title">
+						<h3>Premium</h3>
+						<strong class="value">$199</strong>
+						<p>Suitable for small businesses with up to 5 employees</p>
+					</div>
+					<!-- /plan name & value -->
+
+					<!-- plan description -->
+					<ul>
+						<li><i class="ion-ios-circle-outline"></i> Unlimited agents</li>
+						<li><i class="ion-ios-circle-outline"></i> 20 PSD Design</li>
+						<li><i class="ion-ios-circle-outline"></i> HTML5/CSS3 Markup</li>
+						<li><i class="ion-ios-circle-outline"></i> Advance SEO</li>
+						<li><i class="ion-ios-circle-outline"></i> Email Marketing</li>
+						<li><i class="ion-ios-circle-outline"></i> 24/7 Tech Support</li>
+					</ul>
+					<!-- /plan description -->
+
+					<!-- Contact Us button -->
+					<a class="btn btn-small" href="/contact">Contact Us</a>
+					<!-- /Contact Us button -->
+
+				</div>
+			</div>
+			<!-- end single pricing table -->
+
+			<!-- single pricing table -->
+			<div class="col-md-4 col-sm-6 col-xs-12 ">
+				<div class="pricing-item text-center">
+
+					<!-- plan name & value -->
+					<div class="price-title">
+						<h3>Advance</h3>
+						<strong class="value">$299</strong>
+						<p>Great for large businesses with more than 5 employees</p>
+					</div>
+					<!-- /plan name & value -->
+
+					<!-- plan description -->
+					<ul>
+						<li><i class="ion-ios-circle-outline"></i> Unlimited agents</li>
+						<li><i class="ion-ios-circle-outline"></i> 100 PSD Design</li>
+						<li><i class="ion-ios-circle-outline"></i> HTML5 Markup</li>
+						<li><i class="ion-ios-circle-outline"></i> Pro SEO</li>
+						<li><i class="ion-ios-circle-outline"></i> Email Marketing</li>
+						<li><i class="ion-ios-circle-outline"></i> 24/7 Tech Support</li>
+					</ul>
+					<!-- /plan description -->
+
+					<!-- Contact Us button -->
+					<a class="btn btn-small" href="/contact">Contact Us</a>
+					<!-- /Contact Us button -->
+
+				</div>
+			</div>
+			<!-- end single pricing table -->
+
+
+		</div> <!-- End row -->
+	</div> <!-- End container -->
+</section> <!-- End section -->
+<section class="faq section-sm ">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center">Here is some FAQ , for more please visit our <a href="contact.html">Contact Page</a></h2>
+			</div>
+		</div>
+		<div class="row mt-30">
+			<div class="col-md-6">
+				<h4>Do I need to pay for upfront?</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sed dolor laboriosam laborum expedita quisquam,
+					perferendis esse illo inventore voluptatibus.</p>
+			</div>
+			<div class="col-md-6">
+				<h4>Are volume discounts available?</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sed dolor laboriosam laborum expedita quisquam,
+					perferendis esse illo inventore voluptatibus.</p>
+			</div>
+			<div class="col-md-6">
+				<h4>What level of support is included in my plan?</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sed dolor laboriosam laborum expedita quisquam,
+					perferendis esse illo inventore voluptatibus.</p>
+			</div>
+			<div class="col-md-6">
+				<h4>Do I need to pay more for chat?</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sed dolor laboriosam laborum expedita quisquam,
+					perferendis esse illo inventore voluptatibus.</p>
+			</div>
+			<div class="col-md-6">
+				<h4>What does basic SEO Pack means ?</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sed dolor laboriosam laborum expedita quisquam,
+					perferendis esse illo inventore voluptatibus.</p>
+			</div>
+			<div class="col-md-6">
+				<h4>How do refunds work ?</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sed dolor laboriosam laborum expedita quisquam,
+					perferendis esse illo inventore voluptatibus.</p>
+			</div>
+			<div class="col-md-6">
+				<h4>Do you support non-profits ?</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sed dolor laboriosam laborum expedita quisquam,
+					perferendis esse illo inventore voluptatibus.</p>
+			</div>
+			<div class="col-md-6">
+				<h4>Are volume discounts available?</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sed dolor laboriosam laborum expedita quisquam,
+					perferendis esse illo inventore voluptatibus.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+@include('sections/footer')

@@ -60,11 +60,11 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="ion-ios-arrow-down"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="portfolio.html">Portfolio Filter</a></li>
-                                        <li><a href="portfolio-single.html">Portfolio Single</a></li>
+                                        <li><a href="/portfolio">Portfolio Filter</a></li>
+                                        {{--<li><a href="/portfolio-single">Portfolio Single</a></li>--}}
                                     </ul>
                                 </li>
-                                <li><a href="service.html">Service</a></li>
+                                <li><a href="/service">Service</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="ion-ios-arrow-down"></span></a>
                                     <ul class="dropdown-menu">
@@ -79,13 +79,12 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="ion-ios-arrow-down"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="/about">About Us</a></li>
-                                        <li><a href="coming-soon">Coming Soon</a></li>
-                                        <li><a href="404.html">404 Page</a></li>
+                                        <li><a href="/coming-soon">Coming Soon</a></li>
                                         <li><a href="/faq">FAQ</a></li>
-                                        <li><a href="pricing">Pricing Table</a></li>
+                                        <li><a href="/pricing">Pricing Table</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="/contact">Contact</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </div><!-- /.container-fluid -->
@@ -93,4 +92,5 @@
             </div>
         </div>
     </div>
-</header><!-- header close -->
+</header>
+<!-- header close -->

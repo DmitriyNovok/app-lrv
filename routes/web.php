@@ -24,3 +24,23 @@ Route::get('/about', function () {
 Route::get('/faq', function () {
     return view('faq');
 });
+
+Route::get('/coming-soon', function () {
+    return view('coming-soon');
+});
+
+Route::get('/pricing', function () {
+    return view('pricing');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
+
+Route::get('/service', function () {
+    return view('service');
+});

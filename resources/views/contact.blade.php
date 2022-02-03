@@ -16,7 +16,8 @@
 <section class="contact-form">
     <div class="container">
         <div class="row">
-            <form id="contact-form">
+            <form id="contact-form" method="post" action="/dropUsNote">
+                @csrf
                 <div class="col-md-6 col-sm-12">
                     <div class="block">
                         <div class="form-group">

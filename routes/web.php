@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DropUs\DropUsNoteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -44,6 +45,8 @@ Route::get('/portfolio', function () {
 Route::get('/service', function () {
     return view('service');
 });
+
+Route::post('/dropUsNote', [DropUsNoteController::class, 'sendNote']);
 
 Route::fallback(function () {
     return view('404');

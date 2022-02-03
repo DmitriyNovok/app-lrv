@@ -44,3 +44,7 @@ Route::get('/portfolio', function () {
 Route::get('/service', function () {
     return view('service');
 });
+
+Route::fallback(function () {
+    return view('404');
+});
